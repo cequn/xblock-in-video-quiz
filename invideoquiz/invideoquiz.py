@@ -9,7 +9,7 @@ import pkg_resources
 from xblock.core import XBlock
 from xblock.fields import Scope
 from xblock.fields import String
-from xblock.fragment import Fragment
+from web_fragments.fragment import Fragment
 from xblockutils.studio_editable import StudioEditableXBlockMixin
 
 from .utils import _
